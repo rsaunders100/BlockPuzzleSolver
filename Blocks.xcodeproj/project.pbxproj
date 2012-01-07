@@ -10,6 +10,12 @@
 		EB50343C14AA23FC0029B8BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB50343B14AA23FC0029B8BF /* Foundation.framework */; };
 		EB50343F14AA23FC0029B8BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB50343E14AA23FC0029B8BF /* main.m */; };
 		EB50344314AA23FC0029B8BF /* Blocks.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB50344214AA23FC0029B8BF /* Blocks.1 */; };
+		EB50344C14AA248A0029B8BF /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = EB50344B14AA248A0029B8BF /* Grid.m */; };
+		EB50344F14AA316D0029B8BF /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = EB50344E14AA316D0029B8BF /* Vector.m */; };
+		EB50345214AA54050029B8BF /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EB50345114AA54050029B8BF /* Block.m */; };
+		EB87F7FC14AB7C9C002BAC38 /* BlockPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = EB87F7FB14AB7C9B002BAC38 /* BlockPosition.m */; };
+		EBAC3EE114ACA5BC001B6077 /* NSArray+compareByCount.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAC3EE014ACA5BC001B6077 /* NSArray+compareByCount.m */; };
+		EBE6D36914B8A32400D00F7F /* InitialPosiblites.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE6D36814B8A32400D00F7F /* InitialPosiblites.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +35,21 @@
 		EB50343714AA23FC0029B8BF /* Blocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Blocks; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB50343B14AA23FC0029B8BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB50343E14AA23FC0029B8BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EB50344114AA23FC0029B8BF /* Blocks-Prefix.pch */ = {isa = PBXFileReference; path = "Blocks-Prefix.pch"; sourceTree = "<group>"; };
+		EB50344114AA23FC0029B8BF /* Blocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blocks-Prefix.pch"; sourceTree = "<group>"; };
 		EB50344214AA23FC0029B8BF /* Blocks.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Blocks.1; sourceTree = "<group>"; };
+		EB50344A14AA248A0029B8BF /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		EB50344B14AA248A0029B8BF /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		EB50344D14AA316D0029B8BF /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		EB50344E14AA316D0029B8BF /* Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector.m; sourceTree = "<group>"; };
+		EB50345014AA54040029B8BF /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		EB50345114AA54050029B8BF /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		EB87F7FA14AB7C9B002BAC38 /* BlockPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockPosition.h; sourceTree = "<group>"; };
+		EB87F7FB14AB7C9B002BAC38 /* BlockPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockPosition.m; sourceTree = "<group>"; };
+		EBAC3EDF14ACA5BC001B6077 /* NSArray+compareByCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+compareByCount.h"; path = "../NSArray+compareByCount.h"; sourceTree = "<group>"; };
+		EBAC3EE014ACA5BC001B6077 /* NSArray+compareByCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+compareByCount.m"; path = "../NSArray+compareByCount.m"; sourceTree = "<group>"; };
+		EBE6D36714B8A32400D00F7F /* InitialPosiblites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialPosiblites.h; sourceTree = "<group>"; };
+		EBE6D36814B8A32400D00F7F /* InitialPosiblites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialPosiblites.m; sourceTree = "<group>"; };
+		EBE6D36A14B8B02E00D00F7F /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				EB50343E14AA23FC0029B8BF /* main.m */,
+				EBE6D36A14B8B02E00D00F7F /* main.h */,
+				EB50344914AA24690029B8BF /* ObjC */,
 				EB50344214AA23FC0029B8BF /* Blocks.1 */,
 				EB50344014AA23FC0029B8BF /* Supporting Files */,
 			);
@@ -86,6 +107,25 @@
 				EB50344114AA23FC0029B8BF /* Blocks-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB50344914AA24690029B8BF /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				EB50344A14AA248A0029B8BF /* Grid.h */,
+				EB50344B14AA248A0029B8BF /* Grid.m */,
+				EB50344D14AA316D0029B8BF /* Vector.h */,
+				EB50344E14AA316D0029B8BF /* Vector.m */,
+				EB50345014AA54040029B8BF /* Block.h */,
+				EB50345114AA54050029B8BF /* Block.m */,
+				EB87F7FA14AB7C9B002BAC38 /* BlockPosition.h */,
+				EB87F7FB14AB7C9B002BAC38 /* BlockPosition.m */,
+				EBAC3EDF14ACA5BC001B6077 /* NSArray+compareByCount.h */,
+				EBAC3EE014ACA5BC001B6077 /* NSArray+compareByCount.m */,
+				EBE6D36714B8A32400D00F7F /* InitialPosiblites.h */,
+				EBE6D36814B8A32400D00F7F /* InitialPosiblites.m */,
+			);
+			path = ObjC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +179,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB50343F14AA23FC0029B8BF /* main.m in Sources */,
+				EB50344C14AA248A0029B8BF /* Grid.m in Sources */,
+				EB50344F14AA316D0029B8BF /* Vector.m in Sources */,
+				EB50345214AA54050029B8BF /* Block.m in Sources */,
+				EB87F7FC14AB7C9C002BAC38 /* BlockPosition.m in Sources */,
+				EBAC3EE114ACA5BC001B6077 /* NSArray+compareByCount.m in Sources */,
+				EBE6D36914B8A32400D00F7F /* InitialPosiblites.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +273,7 @@
 				EB50344814AA23FC0029B8BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -45,8 +45,8 @@
 		EB50345114AA54050029B8BF /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
 		EB87F7FA14AB7C9B002BAC38 /* BlockPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockPosition.h; sourceTree = "<group>"; };
 		EB87F7FB14AB7C9B002BAC38 /* BlockPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockPosition.m; sourceTree = "<group>"; };
-		EBAC3EDF14ACA5BC001B6077 /* NSArray+compareByCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+compareByCount.h"; path = "../NSArray+compareByCount.h"; sourceTree = "<group>"; };
-		EBAC3EE014ACA5BC001B6077 /* NSArray+compareByCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+compareByCount.m"; path = "../NSArray+compareByCount.m"; sourceTree = "<group>"; };
+		EBAC3EDF14ACA5BC001B6077 /* NSArray+compareByCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+compareByCount.h"; sourceTree = "<group>"; };
+		EBAC3EE014ACA5BC001B6077 /* NSArray+compareByCount.m */ = {isa = PBXFileReference; fileEncoding = 4; path = "NSArray+compareByCount.m"; sourceTree = "<group>"; };
 		EBE6D36714B8A32400D00F7F /* InitialPosiblites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialPosiblites.h; sourceTree = "<group>"; };
 		EBE6D36814B8A32400D00F7F /* InitialPosiblites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialPosiblites.m; sourceTree = "<group>"; };
 		EBE6D36A14B8B02E00D00F7F /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
